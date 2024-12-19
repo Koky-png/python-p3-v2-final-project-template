@@ -1,8 +1,4 @@
-#!/usr/bin/env python3
-# lib/debug.py
+from models import initialize_db
 
-from models.__init__ import CONN, CURSOR
-import ipdb
-
-
-ipdb.set_trace()
+if __name__ == "__main__":
+    initialize_db()
